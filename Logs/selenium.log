@@ -1,0 +1,124 @@
+17:27:01,272 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+17:27:01,279 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+17:27:01,279 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+17:27:01,284 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4760eb16
+17:27:01,303 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+17:27:01,303 DEBUG PlatformDependent0:1000 - Java version: 8
+17:27:01,304 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+17:27:01,304 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+17:27:01,305 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+17:27:01,305 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+17:27:01,305 DEBUG PlatformDependent0:307 - direct buffer constructor: available
+17:27:01,306 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+17:27:01,306 DEBUG PlatformDependent0:459 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+17:27:01,307 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): available
+17:27:01,307 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+17:27:01,307 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\SCHOUD~1\AppData\Local\Temp (java.io.tmpdir)
+17:27:01,308 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:27:01,309 DEBUG PlatformDependent:1119 - Platform: Windows
+17:27:01,309 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 3745513472 bytes
+17:27:01,309 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+17:27:01,310 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+17:27:01,310 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+17:27:01,317 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+17:27:01,338 DEBUG InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+17:27:01,339 DEBUG InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+17:27:01,699 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.2] 
+17:27:01,699 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+17:27:01,714 DEBUG GlobalEventExecutor:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+17:27:01,727 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+17:27:01,737 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+17:27:01,737 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+17:27:01,782 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+17:27:01,782 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+17:27:01,782 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+17:27:01,782 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+17:27:01,782 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+17:27:01,782 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+17:27:01,783 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+17:27:01,783 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+17:27:01,783 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+17:27:01,783 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+17:27:01,783 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+17:27:01,783 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+17:27:01,797 DEBUG ByteBufUtil:88 - -Dio.netty.allocator.type: pooled
+17:27:01,797 DEBUG ByteBufUtil:97 - -Dio.netty.threadLocalDirectBufferSize: 0
+17:27:01,797 DEBUG ByteBufUtil:100 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+17:27:02,912 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 132 (auto-detected)
+17:27:02,914 DEBUG NetUtil:148 - -Djava.net.preferIPv4Stack: false
+17:27:02,915 DEBUG NetUtil:149 - -Djava.net.preferIPv6Addresses: false
+17:27:03,012 DEBUG NetUtilInitializations:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+17:27:03,013 DEBUG NetUtil:206 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+17:27:03,020 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 5c:ba:ef:ff:fe:5d:68:d5 (auto-detected)
+17:27:03,059 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+17:27:03,059 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+17:27:03,059 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4e97c0d5
+17:27:03,081 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+17:27:03,081 DEBUG Recycler:97 - -Dio.netty.recycler.ratio: 8
+17:27:03,081 DEBUG Recycler:98 - -Dio.netty.recycler.chunkSize: 32
+17:27:03,081 DEBUG Recycler:99 - -Dio.netty.recycler.blocking: false
+17:27:03,082 DEBUG Recycler:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+17:27:03,606 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+17:27:03,698 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xdcf272c22862417d
+17:27:03,738  INFO devpinoyLogger:55 - Chrome browser opened
+17:27:03,882  INFO devpinoyLogger:91 - browser is maximised
+17:27:03,909  INFO devpinoyLogger:93 - cookies cleared
+17:27:32,993  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:28:00,712  INFO devpinoyLogger:55 - Chrome browser opened
+17:28:00,834  INFO devpinoyLogger:91 - browser is maximised
+17:28:00,848  INFO devpinoyLogger:93 - cookies cleared
+17:28:26,612  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:28:28,243  INFO devpinoyLogger:55 - Chrome browser opened
+17:28:28,370  INFO devpinoyLogger:91 - browser is maximised
+17:28:28,379  INFO devpinoyLogger:93 - cookies cleared
+17:28:40,938  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:28:42,660  INFO devpinoyLogger:55 - Chrome browser opened
+17:28:42,788  INFO devpinoyLogger:91 - browser is maximised
+17:28:42,793  INFO devpinoyLogger:93 - cookies cleared
+17:28:55,362  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:28:57,194  INFO devpinoyLogger:55 - Chrome browser opened
+17:28:57,321  INFO devpinoyLogger:91 - browser is maximised
+17:28:57,332  INFO devpinoyLogger:93 - cookies cleared
+17:29:07,927  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:29:09,409  INFO devpinoyLogger:55 - Chrome browser opened
+17:29:09,530  INFO devpinoyLogger:91 - browser is maximised
+17:29:09,544  INFO devpinoyLogger:93 - cookies cleared
+17:29:20,844  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:29:22,343  INFO devpinoyLogger:55 - Chrome browser opened
+17:29:22,469  INFO devpinoyLogger:91 - browser is maximised
+17:29:22,480  INFO devpinoyLogger:93 - cookies cleared
+17:29:34,624  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:29:36,459  INFO devpinoyLogger:55 - Chrome browser opened
+17:29:36,580  INFO devpinoyLogger:91 - browser is maximised
+17:29:36,599  INFO devpinoyLogger:93 - cookies cleared
+17:29:49,604  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:29:51,045  INFO devpinoyLogger:55 - Chrome browser opened
+17:29:51,169  INFO devpinoyLogger:91 - browser is maximised
+17:29:51,179  INFO devpinoyLogger:93 - cookies cleared
+17:30:03,064  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:30:04,610  INFO devpinoyLogger:55 - Chrome browser opened
+17:30:04,729  INFO devpinoyLogger:91 - browser is maximised
+17:30:04,745  INFO devpinoyLogger:93 - cookies cleared
+17:30:15,265  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:30:17,102  INFO devpinoyLogger:55 - Chrome browser opened
+17:30:17,224  INFO devpinoyLogger:91 - browser is maximised
+17:30:17,239  INFO devpinoyLogger:93 - cookies cleared
+17:30:28,312  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:30:41,258  INFO devpinoyLogger:55 - Chrome browser opened
+17:30:41,378  INFO devpinoyLogger:91 - browser is maximised
+17:30:41,390  INFO devpinoyLogger:93 - cookies cleared
+17:30:52,438  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:30:54,109  INFO devpinoyLogger:55 - Chrome browser opened
+17:30:54,239  INFO devpinoyLogger:91 - browser is maximised
+17:30:54,249  INFO devpinoyLogger:93 - cookies cleared
+17:31:07,318  INFO devpinoyLogger:99 - https://member-dev.smartac.com/login/ app opened
+17:31:08,081 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+17:31:08,081 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+17:31:08,082 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+17:31:08,083 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+17:31:08,083 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/schoudhary/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+17:31:08,237 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+17:31:08,237 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+17:31:08,237 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+17:31:08,238 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+17:31:08,238 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/schoudhary/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

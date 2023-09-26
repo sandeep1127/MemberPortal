@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MemberPortal">
+
+<listeners>
+<listener class-name= "WebApp.MemberPortal.Utility.FailedTestCases"/>                 <!-- // This listener we add in this xml to re-run the failed test cases.We in this testNG.xml simply gave location of the Class 'failedtestcases' created in utility -->
+<listener class-name= "WebApp.MemberPortal.ExtentReportListener.ExtentReporterNG" />  <!-- // This listener we add here for Extent report and here we give location of our java file where code is written  -->
+</listeners>
+
+<test name="MemberPortalTestCases" verbose="5" parallel="classes" thread-count="1">
+<!-- Verbose  is not mandatory BTW. It just gives a little more details of console when test cases are run -->
+                                                                               <!-- For Parallel Execution(running multiple test case at the same time) 2 parameters ie'parallel' & 'thread-count' are required. Now just increase the value of 'thread-count' to 2 , it means 2 test cases will run in parallel at same time at class level. we could have given value 'methods' as well for 'parallel'  -->
+                                                                    
+   <!-- 
+   IMPORTANT NOTES Below:-
+   Instead of creating Config.properties file ,we could have also done the same job by using <Parameter> tag inside <Test>tag in this file here(i.e testNG.xml). 
+   Step 1:  In TestNG.xml, at <test> level , add <Parameter> tag  and give 'name' and 'value' which are required.
+   Step 2: Just below @test,use annotation @Parameters
+   step 3: Add the same parameters while creating any method where you wanna use 'url & browser' or any other parameters created in xml.
+   Eg:-
+   <parameter name="url" value ="https//www.noc-test.com/"/>
+   <parameter name="browser" value ="chrome"/>
+   Step2 : In your test case  just below @Test ,use annotation @Parameters({name of parameters you created in TestNG.xml in "" separating with comma})
+   eg:-
+   @Test
+   @Parameters({"url","browser"})
+   step3 : Add the same parameters while creating any method where you wanna use 'url & browser' or any other parameters created in xml
+   eg.
+   public void init(url,browser){
+   }
+    -->
+   
+   
+    <classes>
+    
+    <class name="WebApp.MemberPortal.testcases.LoginPageTestCases"/>  <!-- Here add all the classes of "src/test/java" which you want testNG to run via xml -->
+    <class name="WebApp.MemberPortal.testcases.HomePageTestCases"/>
+    
+    
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="3" total="13" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MemberPortal" duration-ms="248563" started-at="2023-09-26T11:56:59Z" finished-at="2023-09-26T12:01:07Z">
+    <groups>
+    </groups>
+    <test name="MemberPortalTestCases" duration-ms="248563" started-at="2023-09-26T11:56:59Z" finished-at="2023-09-26T12:01:07Z">
+      <class name="WebApp.MemberPortal.testcases.LoginPageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="33654" started-at="2023-09-26T17:26:59Z" finished-at="2023-09-26T17:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="ValidLoginTest" duration-ms="26212" started-at="2023-09-26T17:27:33Z" finished-at="2023-09-26T17:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="594" started-at="2023-09-26T17:27:59Z" finished-at="2023-09-26T17:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="26764" started-at="2023-09-26T17:27:59Z" finished-at="2023-09-26T17:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="invalidEmailLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="invalidEmailLoginTest" duration-ms="151" started-at="2023-09-26T17:28:26Z" finished-at="2023-09-26T17:28:26Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at WebApp.MemberPortal.Pages.LoginPage.invalidEmailLogin(LoginPage.java:109)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.invalidEmailLoginTest(LoginPageTestCases.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="619" started-at="2023-09-26T17:28:26Z" finished-at="2023-09-26T17:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="13552" started-at="2023-09-26T17:28:27Z" finished-at="2023-09-26T17:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="invalidEmailLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="invalidEmailLoginTest" duration-ms="145" started-at="2023-09-26T17:28:40Z" finished-at="2023-09-26T17:28:41Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at WebApp.MemberPortal.Pages.LoginPage.invalidEmailLogin(LoginPage.java:109)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.invalidEmailLoginTest(LoginPageTestCases.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="598" started-at="2023-09-26T17:28:41Z" finished-at="2023-09-26T17:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="13680" started-at="2023-09-26T17:28:41Z" finished-at="2023-09-26T17:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="invalidEmailLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="invalidEmailLoginTest" duration-ms="140" started-at="2023-09-26T17:28:55Z" finished-at="2023-09-26T17:28:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at WebApp.MemberPortal.Pages.LoginPage.invalidEmailLogin(LoginPage.java:109)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.invalidEmailLoginTest(LoginPageTestCases.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="606" started-at="2023-09-26T17:28:55Z" finished-at="2023-09-26T17:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="11615" started-at="2023-09-26T17:28:56Z" finished-at="2023-09-26T17:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="invalidPwdLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="invalidPwdLoginTest" duration-ms="59" started-at="2023-09-26T17:29:07Z" finished-at="2023-09-26T17:29:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:399)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at WebApp.MemberPortal.Pages.LoginPage.invalidPwdLogin(LoginPage.java:95)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.invalidPwdLoginTest(LoginPageTestCases.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPwdLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="589" started-at="2023-09-26T17:29:07Z" finished-at="2023-09-26T17:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="12270" started-at="2023-09-26T17:29:08Z" finished-at="2023-09-26T17:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="invalidPwdLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="invalidPwdLoginTest" duration-ms="56" started-at="2023-09-26T17:29:20Z" finished-at="2023-09-26T17:29:20Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:399)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at WebApp.MemberPortal.Pages.LoginPage.invalidPwdLogin(LoginPage.java:95)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.invalidPwdLoginTest(LoginPageTestCases.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPwdLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="612" started-at="2023-09-26T17:29:20Z" finished-at="2023-09-26T17:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="13111" started-at="2023-09-26T17:29:21Z" finished-at="2023-09-26T17:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="invalidPwdLoginTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="invalidPwdLoginTest" duration-ms="70" started-at="2023-09-26T17:29:34Z" finished-at="2023-09-26T17:29:34Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:399)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at WebApp.MemberPortal.Pages.LoginPage.invalidPwdLogin(LoginPage.java:95)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.invalidPwdLoginTest(LoginPageTestCases.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPwdLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="606" started-at="2023-09-26T17:29:34Z" finished-at="2023-09-26T17:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="14076" started-at="2023-09-26T17:29:35Z" finished-at="2023-09-26T17:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="signUpLinkTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="signUpLinkTest" duration-ms="0" started-at="2023-09-26T17:29:49Z" finished-at="2023-09-26T17:29:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at WebApp.MemberPortal.Pages.LoginPage.signUpLink(LoginPage.java:133)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.signUpLinkTest(LoginPageTestCases.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="591" started-at="2023-09-26T17:29:49Z" finished-at="2023-09-26T17:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="12866" started-at="2023-09-26T17:29:50Z" finished-at="2023-09-26T17:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="signUpLinkTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="signUpLinkTest" duration-ms="0" started-at="2023-09-26T17:30:03Z" finished-at="2023-09-26T17:30:03Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at WebApp.MemberPortal.Pages.LoginPage.signUpLink(LoginPage.java:133)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.signUpLinkTest(LoginPageTestCases.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="619" started-at="2023-09-26T17:30:03Z" finished-at="2023-09-26T17:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="11581" started-at="2023-09-26T17:30:03Z" finished-at="2023-09-26T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="signUpLinkTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="signUpLinkTest" duration-ms="0" started-at="2023-09-26T17:30:15Z" finished-at="2023-09-26T17:30:15Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at WebApp.MemberPortal.Pages.LoginPage.signUpLink(LoginPage.java:133)
+	at WebApp.MemberPortal.testcases.LoginPageTestCases.signUpLinkTest(LoginPageTestCases.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="579" started-at="2023-09-26T17:30:15Z" finished-at="2023-09-26T17:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="12138" started-at="2023-09-26T17:30:16Z" finished-at="2023-09-26T17:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginAbcAustinTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="validLoginAbcAustinTest" duration-ms="11447" started-at="2023-09-26T17:30:28Z" finished-at="2023-09-26T17:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginAbcAustinTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="590" started-at="2023-09-26T17:30:39Z" finished-at="2023-09-26T17:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="12088" started-at="2023-09-26T17:30:40Z" finished-at="2023-09-26T17:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmptyLoginErrorMsgTest()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="verifyEmptyLoginErrorMsgTest" duration-ms="214" started-at="2023-09-26T17:30:52Z" finished-at="2023-09-26T17:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyLoginErrorMsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="603" started-at="2023-09-26T17:30:52Z" finished-at="2023-09-26T17:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="setUp" is-config="true" duration-ms="14063" started-at="2023-09-26T17:30:53Z" finished-at="2023-09-26T17:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="LoginPageTitleTest" duration-ms="10" started-at="2023-09-26T17:31:07Z" finished-at="2023-09-26T17:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WebApp.MemberPortal.testcases.LoginPageTestCases@66a3ffec]" name="tearDown" is-config="true" duration-ms="611" started-at="2023-09-26T17:31:07Z" finished-at="2023-09-26T17:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApp.MemberPortal.testcases.LoginPageTestCases -->
+    </test> <!-- MemberPortalTestCases -->
+  </suite> <!-- MemberPortal -->
+</testng-results>
