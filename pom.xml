@@ -27,7 +27,7 @@
   
    <plugin>
         <groupId>org.apache.maven.plugins</groupId>                         <!--  we need this  Plugin to run our Project via POM.XML. We also run without it by just adding JDK in Windows>Preferences>Installed JRE > Add JDK folder there >Add >-->
-        <artifactId>maven-compiler-plugin</artifactId>                       <!-- Now by adding this, it won't depend on Eclipse compiler and will directy take javac complire from specified lodation -->
+        <artifactId>maven-compiler-plugin</artifactId>                       <!-- Now by adding this, it won't depend on Eclipse compiler and will directly take javac compliler from specified location -->
         <version>3.11.0</version>
         <configuration>
           <verbose>true</verbose>
@@ -44,7 +44,7 @@
 		
 		<plugin>
 		
-				<groupId>org.apache.maven.plugins</groupId>         <!-- This plugin actually runs the TESTNG.XML and if not added then will run only 1st test case and no other cases   -->
+				<groupId>org.apache.maven.plugins</groupId>         <!-- This plugin actually runs the "TestNG.xml" and if not added, then will run only 1st test case and no other cases   -->
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.1.2</version>
 				<configuration>

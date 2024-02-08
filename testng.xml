@@ -35,6 +35,7 @@
     
     <class name="WebApp.MemberPortal.testcases.LoginPageTestCases"/>  <!-- Here add all the classes of "src/test/java" which you want testNG to run via xml -->
     <class name="WebApp.MemberPortal.testcases.HomePageTestCases"/>
+    <class name="WebApp.MemberPortal.BaseClass.WebBase"/>
     
     
   </classes>
